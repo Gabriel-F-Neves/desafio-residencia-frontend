@@ -1,0 +1,59 @@
+header {
+    background-color: #444;
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.btnAddSkill {
+    width: 50px;
+    height: 50px;
+}
+.btnLogout {
+    width: 100px;
+    height: 30px;
+}
+.containerList {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+body{
+    align-items: center;
+    background-color: #222;
+}
+.logo{
+    height: 3rem;
+    width: 9rem;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+
+}
+.containerSkills{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.button{
+    background-color: #333;
+    color: #ccc;
+    width: 8rem;
+    height: 4rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
